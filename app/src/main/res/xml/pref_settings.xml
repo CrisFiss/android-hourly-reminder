@@ -1,0 +1,169 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="sounds"
+        android:title="@string/pref_sounds">
+        <com.github.axet.androidlibrary.preferences.SeekBarPreference
+            android:defaultValue="1"
+            android:key="volume"
+            android:summary="@string/pref_volume_summary"
+            android:title="@string/pref_volume_title" />
+
+        <com.github.axet.hourlyreminder.widgets.BeepPreference
+            android:defaultValue="1800:100"
+            android:key="beep_custom"
+            android:summary="@string/pref_beep_summary"
+            android:title="@string/pref_beep_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="callsilence"
+            android:summary="@string/pref_callsilence_summary"
+            android:title="@string/pref_callsilence_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="musicsilence"
+            android:summary="@string/pref_musicsilence_summary"
+            android:title="@string/pref_musicsilence_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="phonesilence"
+            android:summary="@string/pref_phonesilnece_summary"
+            android:title="@string/pref_phonesilence_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="haptic"
+        android:title="@string/pref_haptic">
+
+        <com.github.axet.hourlyreminder.widgets.VibratePreference
+            android:defaultValue="false"
+            android:key="vibrate"
+            android:persistent="false"
+            android:summary="@string/pref_vibrate_summary"
+            android:title="@string/pref_vibrate_title" />
+
+        <com.github.axet.hourlyreminder.widgets.FlashPreference
+            android:defaultValue="false"
+            android:key="flash"
+            android:persistent="false"
+            android:summary="@string/pref_flash_summary"
+            android:title="@string/pref_flash_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="advanced"
+        android:title="@string/pref_reminders">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="wakeup"
+            android:summary="@string/pref_wakeup_summary"
+            android:title="@string/pref_wakeup_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="alarm"
+            android:summary="@string/pref_alarm_summary"
+            android:title="@string/pref_alarm_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_alarms">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/increasing_volume_text"
+            android:entryValues="@array/increasing_volume_values"
+            android:key="increasing_volume"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_increasingvolume_summary"
+            android:title="@string/pref_increasingvolume_title" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/snooze_after_text"
+            android:entryValues="@array/snooze_after_values"
+            android:key="snooze_after"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_snooze_summary"
+            android:title="@string/pref_snooze_title" />
+
+        <ListPreference
+            android:defaultValue="10"
+            android:entries="@array/snooze_text"
+            android:entryValues="@array/snooze_values"
+            android:key="snooze_time"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_snoozetime_summary"
+            android:title="@string/pref_snoozetime_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="speak"
+        android:title="@string/pref_speak">
+        <ListPreference
+            android:defaultValue=""
+            android:entries="@array/languages_text"
+            android:entryValues="@array/languages_values"
+            android:key="language"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_tts_summary"
+            android:title="@string/pref_tts_title" />
+        <com.github.axet.hourlyreminder.widgets.TTSPreference
+            android:defaultValue=""
+            android:key="speak_custom"
+            android:summary="@string/pref_speakcustom_summary"
+            android:title="@string/pref_speakcustom_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="speak_ampm"
+            android:summary="@string/pref_ttsampm_summary"
+            android:title="@string/pref_ttsampm_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="application"
+        android:title="@string/pref_application">
+        <com.github.axet.androidlibrary.preferences.OptimizationPreferenceCompat
+            android:defaultValue="false"
+            android:key="optimization"
+            android:persistent="false"
+            android:summary="@string/pref_optimization_summary"
+            android:title="@string/pref_optimization_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="notifications"
+            android:summary="@string/pref_notifications_summary"
+            android:title="@string/pref_notifications_title" />
+
+        <ListPreference
+            android:defaultValue="@string/Theme_Light"
+            android:entries="@array/themes_text"
+            android:entryValues="@array/themes_values"
+            android:key="theme"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_theme_summary"
+            android:title="@string/pref_theme_title" />
+
+        <ListPreference
+            android:defaultValue="Mon"
+            android:entries="@array/weekstart_text"
+            android:entryValues="@array/weekstart_values"
+            android:key="weekstart"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_weekstart_summary"
+            android:title="@string/pref_weekstart_title" />
+
+        <com.github.axet.androidlibrary.preferences.AboutPreferenceCompat
+            android:persistent="false"
+            app:html="@raw/about" />
+    </PreferenceCategory>
+</PreferenceScreen>

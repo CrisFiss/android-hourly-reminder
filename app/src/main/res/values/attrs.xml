@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="alarmBackground" format="color" />
+    <attr name="alarmRing" format="reference" />
+    <attr name="alarmDismiss" format="reference" />
+    <attr name="round_corners" format="reference" />
+    <attr name="round_background" format="reference" />
+</resources>

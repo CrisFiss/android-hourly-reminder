@@ -1,0 +1,112 @@
+<resources>
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccentLight</item>
+        <item name="alarmBackground">@color/alarmBackgroundLight</item>
+        <item name="alarmRing">@drawable/round_circle_light</item>
+        <item name="alarmDismiss">@drawable/round_dismiss_light</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="dialogTheme">@style/AppThemeDialogLight</item>
+        <item name="alertDialogTheme">@style/AppThemeDialogLight</item>
+        <item name="round_corners">@drawable/round_corners_light</item>
+        <item name="round_background">@drawable/round_background_light</item>
+    </style>
+
+    <style name="AppThemeDialogLight" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccentLight</item>
+    </style>
+
+    <style name="AppThemeLight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeLight.FullScreen" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccentLight</item>
+        <item name="alarmBackground">@color/alarmBackgroundLight</item>
+        <item name="alarmRing">@drawable/round_circle_light</item>
+        <item name="alarmDismiss">@drawable/round_dismiss_light</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="dialogTheme">@style/AppThemeDialogLight</item>
+        <item name="alertDialogTheme">@style/AppThemeDialogLight</item>
+        <item name="round_corners">@drawable/round_corners_light</item>
+        <item name="round_background">@drawable/round_background_light</item>
+    </style>
+
+    <style name="AppThemeLight.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="AppThemeLight.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppThemeDark" parent="Theme.AppCompat">
+        <item name="alarmBackground">@color/actionBarBackgroundDark</item>
+        <item name="alarmRing">@drawable/round_circle_dark</item>
+        <item name="alarmDismiss">@drawable/round_dismiss_dark</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="round_corners">@drawable/round_corners_dark</item>
+        <item name="round_background">@drawable/round_background_dark</item>
+    </style>
+
+    <style name="AppThemeDialogDark" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccentDark</item>
+    </style>
+
+    <style name="AppThemeDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeDark.FullScreen" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="alarmBackground">@color/actionBarBackgroundDark</item>
+        <item name="alarmRing">@drawable/round_circle_dark</item>
+        <item name="alarmDismiss">@drawable/round_dismiss_dark</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="dialogTheme">@style/AppThemeDialogDark</item>
+        <item name="alertDialogTheme">@style/AppThemeDialogDark</item>
+        <item name="round_corners">@drawable/round_corners_dark</item>
+        <item name="round_background">@drawable/round_background_dark</item>
+    </style>
+
+    <style name="AppThemeDark.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="Hours12Block">
+        <!-- 26dp / 2 -->
+        <item name="android:paddingTop">13dp</item>
+    </style>
+
+    <style name="Hours30MainBlock">
+        <!-- 26dp / 2 - 5dp / 2 -->
+        <item name="android:paddingLeft">10.5dp</item>
+    </style>
+
+    <style name="Hours30SecondBlock">
+        <!-- 34dp / 2 -->
+        <item name="android:paddingTop">17dp</item>
+    </style>
+
+    <style name="HourButton">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="Hour30Dot">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@drawable/round_corners_light</item>
+    </style>
+
+    <style name="Hour30Button">
+        <item name="android:layout_width">26dp</item>
+        <item name="android:layout_height">26dp</item>
+        <!-- 41dp (34+3+3) + 5dp - 26dp -->
+        <item name="android:layout_marginLeft">19dp</item>
+        <item name="android:text">30</item>
+    </style>
+
+</resources>

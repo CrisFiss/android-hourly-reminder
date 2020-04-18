@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Почасовое оповещение</string>
+
+    <plurals name="hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+
+    <plurals name="seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+
+    <string-array name="patterns_text">
+        <item>Длинный</item>
+        <item>Удар-удар</item>
+        <item>Длинный-удар</item>
+    </string-array>
+
+    <string name="once">Единожды</string>
+    <string name="Everyday">Каждый день</string>
+
+    <string name="Alarm">Будильник</string>
+    <string name="AlarmMissed">Будильник пропущен</string>
+    <string name="AlarmMissedAfter">Будильник пропущен %1$s после %2$d минут</string>
+    <string name="AlarmMissedConflict">Будильник пропущен %1$s, заменен следующим оповещением</string>
+    <string name="Cancel">Отмена</string>
+    <string name="CustomAlarms">Будильник</string>
+    <string name="DefaultRingtone">Оповещение по умолчанию</string>
+    <string name="FailedTTS">Ошибка TTS повторно, пропускаем</string>
+    <string name="FailedTTSRestar">Ошибка TTS повторно, перезапускаем</string>
+    <string name="HourlyReminders">Оповещения</string>
+    <string name="No">Нет</string>
+    <string name="NoDefaultRingtone">Нет оповещения по умолчанию</string>
+    <string name="Reminder">Оповещение</string>
+    <string name="Reminders15">Оповещение установлено каждые 15 минут, проверьте настройки.</string>
+    <string name="SelectAlarm">Выбрать Будильник</string>
+    <string name="SoundSilenced">(Звук выключен)</string>
+    <string name="SoundSilencedCall">(Звук выключен) - Звонок</string>
+    <string name="SoundSilencedMusic">(Звук выключен) - Музыка</string>
+    <string name="SoundSilencedSettings">(Звук выключен) - Настройки</string>
+    <string name="SoundSilencedVibrate">(Звук выключен) - Вибратор</string>
+    <string name="ToastTime">Текущее время %1$s</string>
+    <string name="Today">Сегодня</string>
+    <string name="Tomorrow">Завтра</string>
+    <string name="UpcomingAlarm">Будильник готовится…</string>
+    <string name="UpcomingChime">Оповещение готовится…</string>
+
+    <string-array name="weekdays_text">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+
+    <string-array name="custom_sound_text">
+        <item>Выключено</item>
+        <item>Тип Звонок</item>
+        <item>Тип Звуковой файл</item>
+    </string-array>
+
+    <string-array name="increasing_volume_text">
+        <item>Выключено</item>
+        <item>1 сек</item>
+        <item>2 сек</item>
+        <item>3 сек</item>
+        <item>4 сек</item>
+        <item>5 сек</item>
+    </string-array>
+
+    <string-array name="snooze_after_text">
+        <item>Выключено</item>
+        <item>1 сек</item>
+        <item>3 сек</item>
+        <item>5 сек</item>
+        <item>30 сек</item>
+        <item>1 мин</item>
+        <item>5 мин</item>
+    </string-array>
+
+    <string-array name="snooze_text">
+        <item>1 мин</item>
+        <item>5 мин</item>
+        <item>10 мин</item>
+        <item>15 мин</item>
+        <item>20 мин</item>
+    </string-array>
+
+    <string-array name="themes_text">
+        <item>Тема Светлый</item>
+        <item>Тема Темный</item>
+    </string-array>
+
+    <string-array name="weekstart_text">
+        <item>Суббота</item>
+        <item>Воскресение</item>
+        <item>Понедельник</item>
+    </string-array>
+
+    <string name="WEEK_MON">Пн</string>
+    <string name="WEEK_TUE">Вт</string>
+    <string name="WEEK_WED">Ср</string>
+    <string name="WEEK_THU">Чт</string>
+    <string name="WEEK_FRI">Пт</string>
+    <string name="WEEK_SAT">Сб</string>
+    <string name="WEEK_SUN">Вс</string>
+
+    <string name="friday">П</string>
+    <string name="monday">П</string>
+    <string name="sunday">В</string>
+    <string name="thursday">Ч</string>
+    <string name="tuesday">В</string>
+    <string name="wednesday">С</string>
+    <string name="saturday">С</string>
+
+    <string name="day_am">дп</string>
+    <string name="day_pm">пп</string>
+
+    <string name="day_pm_full">после полудня</string>
+    <string name="day_am_full">до полудня</string>
+
+    <string name="day_4_night">ночи</string>
+    <string name="day_4_am">утра</string>
+    <string name="day_4_mid">дня</string>
+    <string name="day_4_pm">вечера</string>
+
+    <string name="WaitTTS">Ждем TTS</string>
+    <string name="Weekdays">Рабочие дни</string>
+    <string name="DaysOfWeek">Дни недели</string>
+    <string name="Weekend">Выходные дни</string>
+    <string name="Yes">Да</string>
+    <string name="action_settings">Настройки</string>
+    <string name="active_alarm">Будильник!</string>
+    <string name="alarm_disabled">Будильник отключен</string>
+    <string name="alarm_set_for">Будильник установлен через %s</string>
+    <string name="beep">Сигнал</string>
+    <string name="browse_sdcard">Обзор карты</string>
+
+    <string name="system">Системный язык</string>
+
+    <string name="hour_symbol">ч</string>
+    <string name="min_symbol">м</string>
+
+    <string name="dismiss">Отменить</string>
+    <string name="dismiss_alarm">Отменить Будильник</string>
+    <string name="ringtone">Мелодия</string>
+    <string name="speech">Голос</string>
+    <string name="title_activity_alarm">Будильник</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="speak_time_12h00" formatted="false">Текущее время: %H</string>
+    <string name="speak_time_12h01" formatted="false">Текущее время: %H, %M %A</string>
+    <string name="speak_time_24h00" formatted="false">Текущее время: %H</string>
+    <string name="speak_time_24h01" formatted="false">Текущее время: %H, %M</string>
+
+    <string name="not_selected">(не выбрано)</string>
+    <string name="alarm_type_alarm">Включена опция \'Точное время\', проверьте настройки.</string>
+    <string name="reminders_vibrate">Оповещения переведены в режим \'вибратор\'</string>
+    <string name="reminders_silence">Оповещения переведены в беззвучный режим</string>
+
+    <string name="reset">Сброс</string>
+    <string name="play">Слушать</string>
+    <string name="snoozed">Повтор</string>
+    <string name="snooze">Отложить</string>
+    <string name="every">Периодичность</string>
+    <string name="hours">Часы</string>
+    <string name="hourly">Каждый\nчас</string>
+    <string name="min">мин</string>
+    <string name="repeat">Повторять</string>
+    <string name="intervals">Промежутки:</string>
+    <string name="once_per_hour">Раз в час в указанные минуты</string>
+    <string name="repeat_time_interval">Повторять через выбранные промежутки</string>
+    <string name="vibrate_reminders">Вибратор на оповещения</string>
+    <string name="vibrate_alarms">Вибратор для будильника</string>
+    <string name="show_30_minutes">Показать 30-минут</string>
+    <string name="snoozed_for">Будильник отложен на</string>
+
+    <string name="pref_volume_title">Уменьшить громкость</string>
+    <string name="pref_volume_summary">Установить громкость оповещений</string>
+    <string name="pref_beep_title">Настроить сигнал</string>
+    <string name="pref_beep_summary">Настроить длительность и частоту сигнала</string>
+    <string name="pref_callsilence_title">Тишина вовремя звонков</string>
+    <string name="pref_callsilence_summary">Не использовать звуки вовремя разговора по телефону</string>
+    <string name="pref_musicsilence_title">Тишина вовремя музыки</string>
+    <string name="pref_musicsilence_summary">Не использовать звуки вовремя прослушивания музыки</string>
+    <string name="pref_phonesilence_title">Низкий профиль звука</string>
+    <string name="pref_phonesilnece_summary">Не использовать звуки если телефон переведен в беззвучный режим. Переключится на канал звонка (вместо канала будильника)</string>
+    <string name="pref_vibrate_title">Вибратор</string>
+    <string name="pref_vibrate_summary">Использовать вибратор для будильника и оповещений</string>
+    <string name="pref_wakeup_title">Включать экран</string>
+    <string name="pref_wakeup_summary">Включать экран во время оповещений</string>
+    <string name="pref_alarm_title">Точное время</string>
+    <string name="pref_alarm_summary">Использовать тип для оповещений \'alarm\' (пробуждение в режиме Doze)</string>
+    <string name="pref_increasingvolume_title">Плавная громкость</string>
+    <string name="pref_increasingvolume_summary">Постепенно увеличить громкость</string>
+    <string name="pref_snooze_title">Отложить будильник после...</string>
+    <string name="pref_snooze_summary">Set snooze time after minutes</string>
+    <string name="pref_snoozetime_title">Отложить будильник на...</string>
+    <string name="pref_snoozetime_summary">Set snooze time minutes</string>
+    <string name="pref_tts_title">Язык голоса</string>
+    <string name="pref_tts_summary">Выбрать язык голоса</string>
+    <string name="pref_ttsampm_title">Произносить время дня</string>
+    <string name="pref_ttsampm_summary">Произность время дня и ночи (утро, вечер, день, ночь)</string>
+    <string name="pref_optimization_title">Отключить оптимизацию батареи</string>
+    <string name="pref_optimization_summary">Предотвращать удаление программы из памяти телефона</string>
+    <string name="pref_notifications_title">Уведомления</string>
+    <string name="pref_notifications_summary">Показывать уведомления</string>
+    <string name="pref_theme_title">Тема приложения</string>
+    <string name="pref_theme_summary">Выбрать тему</string>
+    <string name="pref_weekstart_title">Начало недели</string>
+    <string name="pref_weekstart_summary">Первый день недели</string>
+    <string name="pref_speakcustom_title">Настройка фразы</string>
+    <string name="pref_speakcustom_summary">Детальная настройка фразы</string>
+    <string name="pref_flash_summary">Использовать вспышку вовремя оповещений</string>
+    <string name="pref_flash_title">Вспышка</string>
+
+    <string name="pref_sounds">Звуки</string>
+    <string name="pref_reminders">Оповещения</string>
+    <string name="pref_alarms">Будильник</string>
+    <string name="pref_speak">Голос</string>
+    <string name="pref_application">Приложение</string>
+
+    <string name="show_12h">Показать 12ч</string>
+    <string name="show_24h">Показать 24ч</string>
+    <string name="default_tts">По умолчанию</string>
+    <string name="flip_phone_to_snooze">(Переверните телефон для паузы)</string>
+    <string name="fallback_text">Недостаточно системных ресурсов для проигрывания звуков</string>
+    <string name="pref_haptic">Haptic\'s</string>
+    <string name="open_from_notificationbar_warning">Отключите \'%s\' чтобы открывалось стандартное приложение Будильник</string>
+</resources>
